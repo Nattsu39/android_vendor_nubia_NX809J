@@ -714,7 +714,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/NX809J/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/nubia/NX809J/proprietary/vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2audio@1.0-service.rc \
     vendor/nubia/NX809J/proprietary/vendor/etc/init/vendor.qti.psiclient@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.psiclient@1.0-service.rc \
-    vendor/nubia/NX809J/proprietary/vendor/etc/init/vendor.qti.qspmhal-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspmhal-service.rc \
     vendor/nubia/NX809J/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/nubia/NX809J/proprietary/vendor/etc/init/vendor.qti.smp2p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.smp2p.rc \
     vendor/nubia/NX809J/proprietary/vendor/etc/init/vendor.qti.syshealthmon-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.syshealthmon-service.rc \
@@ -873,7 +872,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/NX809J/proprietary/vendor/etc/qguard.json:$(TARGET_COPY_OUT_VENDOR)/etc/qguard.json \
     vendor/nubia/NX809J/proprietary/vendor/etc/qspa/nav_disabled.rc:$(TARGET_COPY_OUT_VENDOR)/etc/qspa/nav_disabled.rc \
     vendor/nubia/NX809J/proprietary/vendor/etc/qspa/nsp_disabled.rc:$(TARGET_COPY_OUT_VENDOR)/etc/qspa/nsp_disabled.rc \
-    vendor/nubia/NX809J/proprietary/vendor/etc/qspa_application_packages.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qspa_application_packages.xml \
     vendor/nubia/NX809J/proprietary/vendor/etc/qvirtmgr-vndr.json:$(TARGET_COPY_OUT_VENDOR)/etc/qvirtmgr-vndr.json \
     vendor/nubia/NX809J/proprietary/vendor/etc/recovery-resource.dat:$(TARGET_COPY_OUT_VENDOR)/etc/recovery-resource.dat \
     vendor/nubia/NX809J/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
@@ -899,7 +897,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/NX809J/proprietary/vendor/etc/seccomp_policy/qsap_mpamsvc.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_mpamsvc.policy \
     vendor/nubia/NX809J/proprietary/vendor/etc/seccomp_policy/qsap_qapeservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_qapeservice.policy \
     vendor/nubia/NX809J/proprietary/vendor/etc/seccomp_policy/qsap_sensors.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qsap_sensors.policy \
-    vendor/nubia/NX809J/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/nubia/NX809J/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
     vendor/nubia/NX809J/proprietary/vendor/etc/seccomp_policy/qwesd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qwesd@2.0.policy \
     vendor/nubia/NX809J/proprietary/vendor/etc/seccomp_policy/syshealthmon.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/syshealthmon.policy \
@@ -2185,7 +2182,6 @@ PRODUCT_PACKAGES += \
     libtaautoload \
     libteec \
     libtensorflowlite_c_vendor \
-    libtensorflowlite_gpu_jni \
     libtensorflowlite_jni_nubia_vendor \
     libtestutils \
     libtfestriping \
@@ -2504,7 +2500,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.qesdsys-V3-ndk \
     vendor.qti.qesdsys-V4-ndk \
     vendor.qti.qspmhal-V1-ndk \
-    vendor.qti.qspmhal-impl \
     vendor.qti.qvirt-V2-ndk \
     vendor.qti.snapdragonServices-V1-ndk \
     vendor.qti.snapdragonServices-V2-ndk \
@@ -2622,7 +2617,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.wifidisplaysession-service.xml \
     vendor.qti.ims.factoryaidlservice.xml \
     vendor.qti.qccvndhal_aidl-service.xml \
-    vendor.qti.qspmhal-service.xml \
     vendor.qti.syshealthmon-service.xml \
     vendor.zte.nook.modem-manifest-ds.xml \
     vendor.zte.radio-manifest-ds.xml \
@@ -2862,7 +2856,6 @@ PRODUCT_PACKAGES += \
     ubwcconvert \
     variantid \
     vendor.dpmd \
-    vendor.qti.qspmhal-service \
     vendor.qti.syshealthmon-service \
     vendor_cmd_tool \
     vendor_modprobe \
